@@ -34,4 +34,4 @@ while nodes <= 16:
     sum = []
     for i in range(1, nodes + 1):
         sum.append(vBuckets.count(i))
-    print "%d %s" % (len(sum), sum)
+    print "After add indexed node %d => %s" % (len(sum), sum)
